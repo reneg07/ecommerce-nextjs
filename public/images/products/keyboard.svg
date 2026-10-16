@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" fill="none">
+  <defs>
+    <linearGradient id="bg_key" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1329" />
+      <stop offset="100%" stop-color="#1c1917" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" rx="24" fill="url(#bg_key)" />
+  <!-- Keyboard chassis -->
+  <rect x="110" y="220" width="380" height="150" rx="16" fill="#18181b" stroke="#3f3f46" stroke-width="4" />
+  <!-- RGB Underglow -->
+  <rect x="115" y="360" width="370" height="4" rx="2" fill="#ef4444" />
+  <!-- Keys Grid mockup -->
+  <g fill="#27272a" stroke="#52525b" stroke-width="2">
+    <rect x="130" y="240" width="30" height="25" rx="4" />
+    <rect x="168" y="240" width="30" height="25" rx="4" />
+    <rect x="206" y="240" width="30" height="25" rx="4" />
+    <rect x="244" y="240" width="30" height="25" rx="4" />
+    <rect x="282" y="240" width="30" height="25" rx="4" />
+    <rect x="320" y="240" width="30" height="25" rx="4" />
+    <rect x="358" y="240" width="30" height="25" rx="4" />
+    <rect x="396" y="240" width="30" height="25" rx="4" />
+    <rect x="434" y="240" width="40" height="25" rx="4" />
+
+    <rect x="130" y="275" width="40" height="25" rx="4" />
+    <rect x="178" y="275" width="30" height="25" rx="4" fill="#ef4444" stroke="#f87171" />
+    <rect x="216" y="275" width="30" height="25" rx="4" fill="#3b82f6" stroke="#60a5fa" />
+    <rect x="254" y="275" width="30" height="25" rx="4" />
+    <rect x="292" y="275" width="30" height="25" rx="4" />
+    <rect x="330" y="275" width="30" height="25" rx="4" />
+    <rect x="368" y="275" width="30" height="25" rx="4" />
+    <rect x="406" y="275" width="30" height="25" rx="4" />
+    <rect x="444" y="275" width="30" height="25" rx="4" />
+
+    <rect x="130" y="310" width="50" height="25" rx="4" />
+    <rect x="188" y="310" width="30" height="25" rx="4" />
+    <rect x="226" y="310" width="160" height="25" rx="4" fill="#10b981" stroke="#34d399" />
+    <rect x="394" y="310" width="35" height="25" rx="4" />
+    <rect x="437" y="310" width="37" height="25" rx="4" />
+  </g>
+  <text x="300" y="450" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#e2e8f0" text-anchor="middle">Teclado Mecánico RGB</text>
+  <text x="300" y="480" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#f87171" text-anchor="middle">SWITCH RED LINEAR</text>
+</svg>

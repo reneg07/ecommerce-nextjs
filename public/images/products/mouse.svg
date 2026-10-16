@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" fill="none">
+  <defs>
+    <linearGradient id="bg_mouse" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" rx="24" fill="url(#bg_mouse)" />
+  <!-- Ergonomic Mouse Silhouette -->
+  <path d="M230 250c0-60 30-100 70-100s70 40 70 100v80c0 50-30 90-70 90s-70-40-70-90v-80z" fill="#1e293b" stroke="#38bdf8" stroke-width="4" />
+  <!-- Wheel & button lines -->
+  <line x1="300" y1="150" x2="300" y2="240" stroke="#38bdf8" stroke-width="3" />
+  <rect x="294" y="180" width="12" height="30" rx="6" fill="#38bdf8" />
+  <path d="M230 240h140" stroke="#334155" stroke-width="3" />
+  <text x="300" y="470" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#e2e8f0" text-anchor="middle">Mouse Ergonómico Pro</text>
+  <text x="300" y="500" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#7dd3fc" text-anchor="middle">16000 DPI WIRELESS</text>
+</svg>

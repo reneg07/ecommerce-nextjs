@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" fill="none">
+  <defs>
+    <linearGradient id="bg_mon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#1e1e38" />
+    </linearGradient>
+    <linearGradient id="screen_mon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" rx="24" fill="url(#bg_mon)" />
+  <!-- Stand -->
+  <path d="M260 360h80l10 50h-100l10-50z" fill="#475569" />
+  <rect x="230" y="405" width="140" height="8" rx="4" fill="#64748b" />
+  <!-- Panel -->
+  <rect x="130" y="150" width="340" height="210" rx="12" fill="#0f172a" stroke="#334155" stroke-width="4" />
+  <rect x="140" y="160" width="320" height="190" rx="6" fill="url(#screen_mon)" />
+  <!-- Gaming accent -->
+  <path d="M140 330l160-70 160 50" stroke="#f472b6" stroke-width="4" fill="none" />
+  <circle cx="300" cy="240" r="14" fill="#ffffff" />
+  <text x="300" y="470" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#e2e8f0" text-anchor="middle">Monitor Gaming 27&quot; 144Hz</text>
+  <text x="300" y="500" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#f472b6" text-anchor="middle">IPS 2K QHD 1MS</text>
+</svg>

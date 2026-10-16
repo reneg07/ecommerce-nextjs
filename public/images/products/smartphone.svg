@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" fill="none">
+  <defs>
+    <linearGradient id="bg_phone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#14532d" />
+    </linearGradient>
+    <linearGradient id="screen_phone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" rx="24" fill="url(#bg_phone)" />
+  <!-- Smartphone Body -->
+  <rect x="220" y="120" width="160" height="300" rx="28" fill="#1e293b" stroke="#334155" stroke-width="4" />
+  <rect x="230" y="135" width="140" height="270" rx="20" fill="url(#screen_phone)" />
+  <circle cx="300" cy="150" r="4" fill="#0f172a" />
+  <!-- Glass Reflection -->
+  <path d="M230 145l140 180v30l-140-180z" fill="#ffffff" fill-opacity="0.12" />
+  <text x="300" y="480" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#e2e8f0" text-anchor="middle">Smartphone Flagship 5G</text>
+  <text x="300" y="510" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#a7f3d0" text-anchor="middle">120Hz AMOLED &amp; 108MP</text>
+</svg>
